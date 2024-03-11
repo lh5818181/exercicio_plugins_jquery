@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: beige;
+    max-width: 1280px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.conteiner {
+align-items: center;
+max-width: 1024px;
+width: 100%;
+margin: 0 auto;
+}
+
+form ul li {
+    list-style: none;
+}
+
+form h2 {
+    margin: 15px 0;
+}
+
+form ul li input {
+    width: 25%;
+    display: block;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form button {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(63, 203, 75);
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
